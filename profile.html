@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/indexstyle.css">
+    <style>
+    a { color: inherit; }
+    
+    </style>
+    <title>Ulula</title>
+  </head>
+  <body>
+    
+    <!-- modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content" style="border-radius: 15px;">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Название</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h5>Описание</h5>
+              <div class="input-group mb-3">
+                
+                <input type="text" class="form-control" style="background-color: #E8F1F1; border-radius: 15px;" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Добавить более подробное описание...">
+              </div>
+              <h5>Статус</h5>
+              <div class="form-check">
+                <input class="form-check-input inputnigger" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Выполнена
+                </label>
+              </div>
+            </div>
+            <div class="modal-footer">
+    
+            </div>
+          </div>
+        </div>
+    </div>
+    <h1 class="mt-5 ml-5 mb-5">Профиль</h1>
+      <!-- navbar -->
+    <div class=" col-1 rounded-left rounded-bottom nav1" style="position: absolute;" >
+    <a href="#" class="ml-3">
+        <img src="img/Home.svg" class="mt-5 text-center" alt="" style="height: 10%;">
+        <h5 class="text-light mt-2 ml-4 " >Главная</h5>
+    </a>
+
+    <a href="#" class="ml-3" >
+        <img src="img/Settings.svg" class="mt-5 text-center" alt="" style="height: 10%;">
+        <h5 class="text-light  mt-2 " >Уведомления</h5>
+    </a>
+
+    <a href="#" class="ml-3">
+        <img src="img/Profile.svg" class="mt-5 text-center" alt="" style="height: 10%;">
+        <h5 class="text-light  mt-2 ml-4 " style="text-shadow:2px 2px black;">Профиль</h5>
+    </a>
+
+    <a href="#" class="ml-3" >
+        <img src="img/CogOutline.svg" class="mt-5 text-center" alt="" style="height: 10%;">
+        <h5 class="text-light  mt-2 ml-3 ">Настройки</h5>
+    </a>
+    </div>
+    <!-- main -->
+    <div class="row">
+        <div style="width: 650px; height: 700px; margin-left:220px;  border-radius: 30px; background-color: #E8F1F1">
+            <div class="" style="display: inline-block">
+              <img src="img/avatar.svg" class="ml-3 mt-3" alt="" style="width: 25%;">
+              <h2 class="ml-4 mt-3">Полное имя</h2>
+              <div class="" style="height: 40px; width: 600px; margin-top:4%; border-radius: 30px;  margin-left: 20px;">
+                  <input type="text" class="form-control" style="background-color: #FFFFFF; border-radius: 15px;" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="Иванов Иван">
+              </div>
+              <h2 class="ml-4 mt-3">Имя пользователя</h2>
+              <div class="" style="height: 40px; width: 600px; margin-top:4%; border-radius: 30px;  margin-left: 20px;">
+                  <input type="text" class="form-control" style="background-color: #FFFFFF; border-radius: 15px;" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="admin">
+              </div>
+              <h2 class="ml-4 mt-3">О себе</h2>
+              <div class="" style="height: 40px; width: 600px; margin-top:4%; border-radius: 30px;  margin-left: 20px;">
+                  <input type="text" class="form-control" style="background-color: #FFFFFF; border-radius: 15px;" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="Lorem LoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremLoremL">
+              </div>
+             
+              
+              
+            </div>
+              
+          </div>
+          
+          <div class="" style="width: 950px; height: 350px; margin-left:2.5%;  border-radius: 30px; background-color: #E8F1F1">
+            <h1 class="ml-4 mt-3">Теги в рабочих столах</h1>
+            <div class="row">
+                <div class="dropdown mt-3 ml-5">
+                    <div class="   dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background:#C4C4C4; height: 200px; width: 250px; border-radius: 30px; "></div>
+                    <div class="dropdown-menu pt-0 pb-0 shadow-lg" aria-labelledby="dropdownMenuButton" style="border-radius: 30px;">
+                        <p style="background: #38CEC5; width:100px;"  class="ml-4 text-light font-weight-bold rounded-lg mt-3 ml-2">⠀Бухгалтер</p>
+                    </div>
+                </div>
+                <div class="dropdown mt-3 ml-5">
+                    <div class="   dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background:#C4C4C4; height: 200px; width: 250px; border-radius: 30px; "></div>
+                    <div class="dropdown-menu pt-0 pb-0 shadow-lg" aria-labelledby="dropdownMenuButton" style="border-radius: 30px;">
+                        <p style="background: #38CEC5; width:100px;"  class="ml-4 text-light font-weight-bold rounded-lg mt-3 ml-2">⠀Бухгалтер</p>
+                    </div>
+                </div>
+                <div class="dropdown mt-3 ml-5">
+                    <div class="   dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background:#C4C4C4; height: 200px; width: 250px; border-radius: 30px; "></div>
+                    <div class="dropdown-menu pt-0 pb-0 shadow-lg" aria-labelledby="dropdownMenuButton" style="border-radius: 30px;">
+                        <p style="background: #38CEC5; width:100px;"  class="ml-4 text-light font-weight-bold rounded-lg mt-3 ml-2">⠀Бухгалтер</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+
+            
+            
+           
+          </div>
+    </div>
+    
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
